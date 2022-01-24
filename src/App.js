@@ -6,7 +6,7 @@ import Login from "./components/Login";
 import Profile from "./components/Profile";
 
 function App() {
-  const { user, setUser } = useState(null);
+  const [ user, setUser ] = useState(null);
 
   return (
     <div className="App">

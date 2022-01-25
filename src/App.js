@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="App">
 	  <Register />
-	  <Login />
-	  <Profile />
+	  <Login user={user} setUser={setUser} />
+	  <Profile user={user} setUser={setUser} />
     </div>
   );
 }

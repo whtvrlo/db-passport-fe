@@ -3,7 +3,7 @@ import { useState } from "react";
 function Register() {
     const [ user, setUser ] = useState("");   
     const [ password, setPassword ] = useState("");
-    const baseURL = "http://localhost/user/registeruser";
+    const baseURL = "http://localhost:5000/user/registeruser";
 
     const handleUserChange = (e) => setUser(e.target.value);
     const handlePasswordChange = (e) => setPassword(e.target.value);
